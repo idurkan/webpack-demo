@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Boop!\" && exit 1",
+    "test": "echo \"can't stop won't stop!\" && exit 0",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
+    "start": "nodemon --watch webpack.config.js --exec webpack-dev-server --mode development"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^2.0.2",
     "serve": "^11.3.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",

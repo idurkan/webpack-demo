@@ -9,3 +9,5 @@ npm install serve --save-dev
 
 npm install webpack-dev-server --save-dev
 
+# nodemon: rerun npm commands after filesystem changes.
+npm install nodemon --save-dev
